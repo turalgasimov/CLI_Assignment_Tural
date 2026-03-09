@@ -1,0 +1,22 @@
+CLIcommands.txt
+docs/
+inventory.txt
+logs/
+network.txt
+notes.txt
+search_results.txt
+Setgidinfo.txt
+system.txt
+
+total 11
+drwxr-xr-x 1 Tural Gasimov 197121   0 Mar  7 15:36 ./
+drwxr-xr-x 1 Tural Gasimov 197121   0 Mar  7 02:18 ../
+-rw-r--r-- 1 Tural Gasimov 197121 424 Mar  7 16:31 CLIcommands.txt
+drwxr-xr-x 1 Tural Gasimov 197121   0 Mar  7 15:36 docs/
+-rw-r--r-- 1 Tural Gasimov 197121 109 Mar  7 15:36 inventory.txt
+drwxr-xr-x 1 Tural Gasimov 197121   0 Mar  7 14:04 logs/
+-rw-r--r-- 1 Tural Gasimov 197121   0 Mar  7 02:19 network.txt
+-rw-r--r-- 1 Tural Gasimov 197121  45 Mar  7 15:34 notes.txt
+-rw-r--r-- 1 Tural Gasimov 197121   0 Mar  7 02:19 search_results.txt
+-rw-r--r-- 1 Tural Gasimov 197121   0 Mar  7 02:19 Setgidinfo.txt
+-rw-r--r-- 1 Tural Gasimov 197121   0 Mar  7 02:19 system.txt

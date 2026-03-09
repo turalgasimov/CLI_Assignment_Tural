@@ -1,0 +1,3 @@
+What time is it?
+It's CLI time!
+What a rhyme!

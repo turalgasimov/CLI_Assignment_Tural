@@ -1,0 +1,50 @@
+code . -> to open the folder in vscode
+
+mkdir <name> -> to create the folder {
+	$ mkdir CLI_Assignment_Tural
+}
+
+cd  -> move to the folder {
+	$ cd CLI_Assignment_Tural
+}
+
+clear -> clear the shell
+
+touch -> create the files {
+	$ touch notes.txt
+}
+
+history -> to check the command history 
+
+echo -> to write something to the file {
+	$ echo $'What time is it?\nIt\'s CLI time!\nWhat a rhyme!'
+}
+
+cp -> to copy the file {
+	$ cp notes.txt docs/notes_copy.txt
+}
+
+mv -> to rename the file {
+	$ mv docs/notes_copy.txt docs/study.txt
+}
+
+ls -> to list the directory {
+	$ ls -la
+	-a -> show all, including hidden
+	-l -> show details (time created, size, permissions and etc.)
+}
+
+cat -> to get the content of the file
+grep -> to search for the word {
+	$ cat notes.txt | grep "CLI" > search_results.txt
+}
+
+ipconfig -> to get the network information
+
+systeminfo -> to get the system information
+
+ping -> to test the connectivity
+tail -> to the the last lines {
+	ping example.com | tail -4
+}
+

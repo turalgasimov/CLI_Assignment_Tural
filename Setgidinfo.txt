@@ -1,0 +1,7 @@
+setgidinfo
+
+setuid
+
+setgid
+
+sticky

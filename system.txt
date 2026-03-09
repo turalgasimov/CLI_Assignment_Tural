@@ -1,0 +1,65 @@
+
+Host Name:                     HECATONCHEIRES
+OS Name:                       Microsoft Windows 11 Home
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              Tural Gasimov
+Registered Organization:       N/A
+Product ID:                    00326-10000-00000-AA391
+Original Install Date:         04-Jan-26, 8:31:26 AM
+System Boot Time:              07-Mar-26, 4:06:10 PM
+System Manufacturer:           LENOVO
+System Model:                  81Y8
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 165 Stepping 2 GenuineIntel ~2592 Mhz
+BIOS Version:                  LENOVO EFCN59WW, 09-Jun-23
+Windows Directory:             C:\WINDOWS
+System Directory:              C:\WINDOWS\system32
+Boot Device:                   \Device\HarddiskVolume2
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC+04:00) Baku
+Total Physical Memory:         16,252 MB
+Available Physical Memory:     8,927 MB
+Virtual Memory: Max Size:      17,276 MB
+Virtual Memory: Available:     9,194 MB
+Virtual Memory: In Use:        8,082 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\HECATONCHEIRES
+Hotfix(s):                     4 Hotfix(s) Installed.
+                               [01]: KB5066613
+                               [02]: KB5054156
+                               [03]: KB5074109
+                               [04]: KB5074104
+Network Card(s):               2 NIC(s) Installed.
+                               [01]: Realtek PCIe GbE Family Controller
+                                     Connection Name: Ethernet
+                                     Status:          Media disconnected
+                               [02]: Intel(R) Wi-Fi 6 AX201 160MHz
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.1.254
+                                     IP address(es)
+                                     [01]: 192.168.1.82
+                                     [02]: fe80::89d6:93ef:12af:ef13
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Enforced
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
