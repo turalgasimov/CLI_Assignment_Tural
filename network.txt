@@ -1,31 +1,48 @@
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:3c:3b:cb:6d  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-Windows IP Configuration
+enp0s31f6: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.10.0.248  netmask 255.255.255.0  broadcast 10.10.0.255
+        inet6 fe80::d246:cff:fe81:cbb9  prefixlen 64  scopeid 0x20<link>
+        ether d0:46:0c:81:cb:b9  txqueuelen 1000  (Ethernet)
+        RX packets 315841  bytes 431631827 (431.6 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 77079  bytes 14937220 (14.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 19  memory 0x70600000-70620000  
 
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 2540  bytes 298005 (298.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2540  bytes 298005 (298.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-Ethernet adapter Ethernet:
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:01:72:a0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.20.3.168  netmask 255.255.252.0  broadcast 10.20.3.255
+        inet6 fe80::b8a7:cdef:398:2dab  prefixlen 64  scopeid 0x20<link>
+        ether 2c:98:11:53:9a:91  txqueuelen 1000  (Ethernet)
+        RX packets 4054  bytes 526218 (526.2 KB)
+        RX errors 0  dropped 68  overruns 0  frame 0
+        TX packets 1388  bytes 171458 (171.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-Wireless LAN adapter Local Area Connection* 11:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Wireless LAN adapter Local Area Connection* 12:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Wireless LAN adapter Wi-Fi:
-
-   Connection-specific DNS Suffix  . : ada.local
-   Link-local IPv6 Address . . . . . : fe80::89d6:93ef:12af:ef13%15
-   IPv4 Address. . . . . . . . . . . : 10.0.46.188
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . : 10.0.0.2
-
-Ping statistics for 104.18.26.120:
-    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
-Approximate round trip times in milli-seconds:
-    Minimum = 67ms, Maximum = 69ms, Average = 68ms
+64 bytes from 104.18.27.120 (104.18.27.120): icmp_seq=1 ttl=57 time=68.2 ms
+64 bytes from 104.18.27.120 (104.18.27.120): icmp_seq=2 ttl=57 time=68.4 ms
+64 bytes from 104.18.27.120 (104.18.27.120): icmp_seq=3 ttl=57 time=68.1 ms
+64 bytes from 104.18.27.120 (104.18.27.120): icmp_seq=4 ttl=57 time=68.4 ms

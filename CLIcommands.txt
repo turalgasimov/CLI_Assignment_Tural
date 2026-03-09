@@ -39,12 +39,35 @@ grep -> to search for the word {
 	$ cat notes.txt | grep "CLI" > search_results.txt
 }
 
-ipconfig -> to get the network information
+ifconfig -> to get the network information
 
-systeminfo -> to get the system information
+systeminfo/uname -a -> to get the system information
 
 ping -> to test the connectivity
+head -> to get the first lines
 tail -> to the the last lines {
-	ping example.com | tail -4
+	$ ping -c 4 example.com | head -5 | tail -4 >> network.txt
 }
 
+chmod -> to change permissions {
+	$ chmod 640 secute.txt
+
+	- 6 (110) -> rw- (read and write) for user
+	- 4 (100) -> r-- (read) for group
+	- 0 (000) -> --- (none) for others
+}
+
+rm -> to remove a file {
+	$ rm ghost.txt 2> errors.txt
+
+	- while > directs the output of the command,
+	- 2> directs the related error if command fails.
+
+	- in UNIX environment, we have:
+	- STDIN for input coded as 0,
+	- STDOUT for output coded as 1,
+	- STDERR for errors coded as 2;
+
+	- error appears because we try to delete
+	- a file that does not exist.
+}
